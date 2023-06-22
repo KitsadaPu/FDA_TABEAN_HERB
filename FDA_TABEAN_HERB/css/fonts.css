@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'CS ChatThaiUI';
+    src: url('../Fonts/CSChatThaiUI.eot'),
+    url('../Fonts/CSChatThaiUI.eot?#iefix') format("embedded-opentype"),
+    url('../Fonts/CSChatThaiUI.woff2') format("woff2"),
+    url('../Fonts/CSChatThaiUI.woff') format("woff"),
+    url('../Fonts/CSChatThaiUI.ttf') format("truetype"),
+    url('../Fonts/CSChatThaiUI.svg#haymakerregular') format("svg");
+    font-weight: normal;
+    font-style: normal;
+}

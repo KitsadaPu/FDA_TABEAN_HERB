@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LGT_DRUG_DEMO" Class="LINQ_DRUG_HERBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=10.111.28.168;Initial Catalog=LGT_DRUG_DEMO;User ID=fusion" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="LGT_DRUGConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SET_PAGE_MAIN" Member="SET_PAGE_MAINs">
+    <Type Name="SET_PAGE_MAIN">
+      <Column Name="IDA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TYPE_PEOPLE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROCESS_WEIGHT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="PAGE_ID" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="PAGE_NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PAGE_PATH" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ACTIVEFACT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TYPE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TRANSACTION_UPLOAD" Member="TRANSACTION_UPLOADs">
+    <Type Name="TRANSACTION_UPLOAD">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CITIEZEN_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CITIEZEN_ID_AUTHORIZE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="UPLOAD_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PROCESS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="REF_NO" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DOWNLOAD_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YEAR" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="GEN_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROCESS_ID_STR" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAS_TEMPLATE_PROCESS" Member="MAS_TEMPLATE_PROCESSes">
+    <Type Name="MAS_TEMPLATE_PROCESS">
+      <Column Name="IDA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PROCESS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LCNTYPECD" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="STATUS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GROUPS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PREVIEW" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PDF_TEMPLATE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="XML_PATH" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PDF_OUTPUT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOG_STATUS" Member="LOG_STATUS">
+    <Type Name="LOG_STATUS">
+      <Column Name="IDA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="STATUS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROCESS_ID" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="STATUS_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IDENTIFY" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FK_IDA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GEN_RCVNO" Member="GEN_RCVNOs">
+    <Type Name="GEN_RCVNO">
+      <Column Name="IDA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PVNCD" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="YEARS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GEN_RCV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GEN_TYPE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PROCESS_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FK_IDA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAS_STAFF_NAME_HERB" Member="MAS_STAFF_NAME_HERBs">
+    <Type Name="MAS_STAFF_NAME_HERB">
+      <Column Name="IDA" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SEQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STAFF_NAME" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="STAFF_NAME_ENG" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CITIZEN_ID" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="POSITION_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="POSITION_NAME" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TYPE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IS_USE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CREATE_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CREATE_BY" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="UPDATE_DATE" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UPDATE_BY" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

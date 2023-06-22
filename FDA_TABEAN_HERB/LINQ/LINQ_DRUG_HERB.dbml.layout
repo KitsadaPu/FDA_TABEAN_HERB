@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.375, 9.875" name="LINQ_DRUG_HERB">
+  <DataContextMoniker Name="/LINQ_DRUG_HERBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5e758b0f-20b0-4cfc-91c9-c6597d947f9c" absoluteBounds="1, 0.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/LINQ_DRUG_HERBDataContext/SET_PAGE_MAIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58ea95f9-a3c5-47b3-be92-db3548ed3fcb" absoluteBounds="1.0149999999999997, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20aa4ce5-df38-4573-b569-a70d07141656" absoluteBounds="3.875, 0.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/LINQ_DRUG_HERBDataContext/TRANSACTION_UPLOAD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ce052fce-5e30-4fae-8ecb-36ec8daaa821" absoluteBounds="3.8899999999999997, 1.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ee47dfd1-24ae-49f3-8f0f-af69b8b6469a" absoluteBounds="6.625, 0.625, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LINQ_DRUG_HERBDataContext/MAS_TEMPLATE_PROCESS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6ab2751c-ab53-437b-83e5-5a7ebce62752" absoluteBounds="6.64, 1.085, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0d553ca5-1d2a-45d9-ba6b-4234dc14b080" absoluteBounds="9.125, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LINQ_DRUG_HERBDataContext/LOG_STATUS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0053e7ef-25c3-4e1b-9af9-ae4f457582da" absoluteBounds="9.14, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="35686372-51f9-4c1e-9cf4-34062478368f" absoluteBounds="1, 3.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LINQ_DRUG_HERBDataContext/GEN_RCVNO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cfa432da-df6c-4f47-b3c6-1980c43a076e" absoluteBounds="1.0149999999999997, 4.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="89d47c4f-505e-40ff-96fe-2b9a30354b79" absoluteBounds="1, 6.375, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/LINQ_DRUG_HERBDataContext/MAS_STAFF_NAME_HERB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e250e24-9359-49fc-aefe-68f20342b953" absoluteBounds="1.0149999999999997, 6.835, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
