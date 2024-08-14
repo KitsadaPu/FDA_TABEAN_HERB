@@ -90,5 +90,8 @@ Namespace Controllers
         Function Renew_Staff_Cancel_Request() As ActionResult
             Return View()
         End Function
+        Function Renew_Staff_Edit_Admin() As ActionResult
+            Return View()
+        End Function
     End Class
 End Namespace

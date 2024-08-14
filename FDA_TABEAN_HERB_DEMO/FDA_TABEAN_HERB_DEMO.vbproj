@@ -6136,6 +6136,7 @@
     <Content Include="Views\TABEAN_RENEW_STAFF\Renew_Staff_Log_Status.vbhtml" />
     <Content Include="Views\TABEAN_RENEW_STAFF\Renew_Staff_Update_Status.vbhtml" />
     <Content Include="Views\AUTHEN\AUTHEN_GATEWAY_CUSTOMMER.vbhtml" />
+    <Content Include="Views\TABEAN_RENEW_STAFF\Renew_Staff_Edit_Admin.vbhtml" />
     <None Include="Web References\Authentication_104\Authentication.wsdl" />
     <Content Include="Web References\Authentication_104\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
