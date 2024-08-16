@@ -14,7 +14,7 @@
 
     function runQuery2() { //รับพารามิเตอร์จาก Query string
         $scope.TOKEN = QueryString("Token");
-        //$scope.TOKEN = 'S/q39AZVToIX7JqhpngP4QUU'
+        $scope.TOKEN = 'L9vNfwnzmCeEVR7G7/1/zwUU'
         $scope.PROCESS_ID = QueryString("PROCESS_ID");
         $scope.citizen_authen = QueryString("citizen_authorize");
         $scope.IDA_LCN = QueryString("IDA_LCN");
