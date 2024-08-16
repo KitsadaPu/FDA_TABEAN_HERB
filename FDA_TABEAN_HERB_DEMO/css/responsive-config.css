@@ -1,0 +1,597 @@
+/*Media*/
+
+@media only screen and (max-width: 2024px) {
+	.header-elements-inline {
+		display: block;
+	}
+	.page-title {
+		text-align: center;
+	}
+	.fda_card-title {
+		text-align: center;
+		padding: 0 0 1.25rem;
+	}
+	.header-elements {
+		float: right;
+		margin-bottom: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 468px) {
+	.header-elements {
+		float: none;
+		margin-bottom: 1.5rem;
+	}
+	.btn-toolbar {
+		margin: auto;
+	}
+	.btn-group {
+		display: block;
+	}
+	.btn {
+		width: 100%;
+		display: block;
+	}
+	.btn-group > .btn-group:not(:first-child) > .btn,
+	.btn-group > .btn:not(:first-child),
+	.btn-group > .btn-group:not(:last-child) > .btn,
+	.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+		border-top-left-radius: .1875rem;
+		border-top-right-radius: .1875rem;
+		border-bottom-left-radius: .1875rem;
+		border-bottom-right-radius: .1875rem;
+	}
+	.btn-group > .btn:last-child {
+		margin: 0.7rem 0 0;
+	}
+}
+
+/*root color*/
+
+:root {
+	--success: #00a651;
+	--warning: #ff8710;
+	--dark_green: #106f49;
+}
+
+/*FDA CLASS fda template*/
+
+.fda_fs-xs {
+	font-size: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_fs-s {
+	font-size: 0.75rem !important;
+	/*12px*/
+}
+
+.fda_fs-m {
+	font-size: 0.875rem !important;
+	/*14px*/
+}
+
+.fda_fs-l {
+	font-size: 1rem !important;
+	/*16px*/
+}
+
+.fda_fs-xl {
+	font-size: 1.125rem !important;
+	/*18px*/
+}
+
+.fda_fs-xxl {
+	font-size: 1.25rem !important;
+	/*20px*/
+}
+
+/*Margin Control*/
+
+.fda_mt-0 {
+	margin-top: 0 !important;
+}
+
+.fda_mt-5 {
+	margin-top: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_mt-10 {
+	margin-top: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_mt-15 {
+	margin-top: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_mt-20 {
+	margin-top: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_mt-25 {
+	margin-top: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_mt-30 {
+	margin-top: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_mt-40 {
+	margin-top: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_mt-50 {
+	margin-top: 3.125rem !important;
+	/*50px*/
+}
+
+.fda_mr-0 {
+	margin-right: 0 !important;
+}
+
+.fda_mr-5 {
+	margin-right: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_mr-10 {
+	margin-right: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_mr-15 {
+	margin-right: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_mr-20 {
+	margin-right: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_mr-25 {
+	margin-right: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_mr-30 {
+	margin-right: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_mr-40 {
+	margin-right: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_mr-50 {
+	margin-right: 3.125rem !important;
+	/*50px*/
+}
+
+.fda_mb-0 {
+	margin-bottom: 0 !important;
+}
+
+.fda_mb-5 {
+	margin-bottom: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_mb-10 {
+	margin-bottom: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_mb-15 {
+	margin-bottom: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_mb-20 {
+	margin-bottom: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_mb-25 {
+	margin-bottom: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_mb-30 {
+	margin-bottom: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_mb-40 {
+	margin-bottom: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_mb-50 {
+	margin-bottom: 3.125rem !important;
+	/*50px*/
+}
+
+.fda_ml-0 {
+	margin-left: 0 !important;
+}
+
+.fda_ml-5 {
+	margin-left: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_ml-10 {
+	margin-left: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_ml-15 {
+	margin-left: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_ml-20 {
+	margin-left: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_ml-25 {
+	margin-left: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_ml-30 {
+	margin-left: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_ml-40 {
+	margin-left: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_ml-50 {
+	margin-bottom: 3.125rem !important;
+	/*50px*/
+}
+
+/*Padding Control*/
+
+.fda_pl-0 {
+	padding-top: 0 !important;
+}
+
+.fda_pt-5 {
+	padding-top: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_pt-10 {
+	padding-top: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_pt-15 {
+	padding-top: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_pt-20 {
+	padding-top: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_pt-25 {
+	padding-top: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_pt-30 {
+	padding-top: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_pt-40 {
+	padding-top: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_pt-50 {
+	padding-top: 3.125rem !important;
+	/*50px*/
+}
+
+.fda_pr-0 {
+	padding-right: 0 !important;
+}
+
+.fda_pr-5 {
+	padding-right: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_pr-10 {
+	padding-right: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_pr-15 {
+	padding-right: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_pr-20 {
+	padding-right: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_pr-25 {
+	padding-right: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_pr-30 {
+	padding-right: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_pr-40 {
+	padding-right: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_pr-50 {
+	padding-right: 3.125rem !important;
+	/*50px*/
+}
+
+.fda_pb-0 {
+	padding-bottom: 0 !important;
+}
+
+.fda_pb-5 {
+	padding-bottom: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_pb-10 {
+	padding-bottom: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_pb-15 {
+	padding-bottom: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_pb-20 {
+	padding-bottom: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_pb-25 {
+	padding-bottom: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_pb-30 {
+	padding-bottom: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_pb-40 {
+	padding-bottom: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_pb-50 {
+	padding-bottom: 3.125rem !important;
+	/*50px*/
+}
+
+.fda_pl-0 {
+	padding-left: 0 !important;
+}
+
+.fda_pl-5 {
+	padding-left: 0.3125rem !important;
+	/*5px*/
+}
+
+.fda_pl-10 {
+	padding-left: 0.625rem !important;
+	/*10px*/
+}
+
+.fda_pl-15 {
+	padding-left: 0.9375rem !important;
+	/*15px*/
+}
+
+.fda_pl-20 {
+	padding-left: 1.25rem !important;
+	/*20px*/
+}
+
+.fda_pl-25 {
+	padding-left: 1.5625rem !important;
+	/*25px*/
+}
+
+.fda_pl-30 {
+	padding-left: 1.875rem !important;
+	/*30px*/
+}
+
+.fda_pl-40 {
+	padding-left: 2.5rem !important;
+	/*40px*/
+}
+
+.fda_pl-50 {
+	padding-bottom: 3.125rem !important;
+	/*50px*/
+}
+
+/*FDA MAIN*/
+
+.fda_shadow {
+	box-shadow: 5px 10px 15px #dedede;
+}
+
+.fda_card-title {
+	color: var(--dark_green);
+}
+
+.fda_media {
+	border: 1px solid transparent;
+	padding: .625rem;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+.fda_media--success {
+	border-color: var(--success) !important;
+}
+
+.fda_media--warning {
+	border-color: var(--warning) !important;
+}
+
+.fda_media-title {
+	font-size: 1.25rem;
+}
+
+.fda_media-title--success {
+	color: var(--success) !important;
+}
+
+.fda_media-title--warning {
+	color: var(--warning) !important;
+}
+
+.fda_media-title--topics {
+	font-size: 0.875rem;
+	color: #7f7f7f;
+	margin-bottom: .3125rem;
+}
+
+.fda_media-title--detail {
+	font-size: 1.125rem;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 1.25rem;
+}
+
+.fda_btn-full {
+	max-width: 220px;
+	width: 90%;
+	display: block;
+	margin: auto;
+	background-color: #ffffff;
+	border: 1px solid #dedede;
+}
+
+.fda_btn--dark_green {
+	color: #ffffff;
+	background-color: var(--dark_green) !important;
+}
+
+.fda_btn--dark_green:hover,
+.fda_btn--dark_green:focus {
+	color: #ffffff;
+	background-color: #0c442c;
+}
+
+.fda_btn-outline--dark_green {
+	color: var(--dark_green) !important;
+	background-color: #ffffff;
+}
+
+.fda_btn-outline--dark_green:hover,
+.fda_btn-outline--dark_green:focus {
+	color: #fff;
+	background-color: var(--dark_green) !important;
+	border-color: var(--dark_green) !important;
+}
+
+/*adr CLASS edit for adr*/
+
+.adr_media {
+	border-top: 5px solid #dedede;
+	padding: .625rem;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+.adr_btn {
+	font-size: 1.125rem;
+	border-radius: .1875rem;
+}
+
+.adr_btn--dark_green {
+	color: #ffffff;
+	background-color: var(--dark_green);
+}
+
+.adr_btn--dark_green:hover,
+.adr_btn--dark_green:focus {
+	color: #ffffff;
+	background-color: #0c442c;
+}
+
+.adr_btn-outline--dark_green {
+	color: var(--dark_green);
+	background-color: #ffffff;
+	border: 1px solid var(--dark_green);
+}
+
+.adr_btn-outline--dark_green:hover,
+.adr_btn-outline--dark_green:focus {
+	color: #fff;
+	background-color: var(--dark_green);
+	border-color: var(--dark_green);
+}
+
+.btn-search {
+	color: var(--dark_green);
+	background-color: #ffffff;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.btn-advancesearch {
+	color: var(--dark_green);
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+}
+
+.adr_table--dark_green {
+	box-sizing: border-box;
+	border-collapse: collapse;
+	border: 1px solid transparent;
+}
+
+.adr_table--dark_green th {
+	background-color: var(--dark_green);
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+.adr_table--dark_green td {
+	background-color: #f7f7f7;
+	border: 1px solid #ffffff;
+}
+
+.table tbody + tbody {
+	border-top: 1px solid #ffffff;
+}
